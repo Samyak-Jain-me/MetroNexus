@@ -1,24 +1,55 @@
-# DELHI METRO RAIL APP
+# MetroNexus – Delhi Metro Route & Fare Calculator
 
-Please don't get confused, this is NOT an ANDROID Application!
+A **Java-based console application** that computes the shortest route and fare between two Delhi Metro stations using graph algorithms and heap data structures. It also displays an interactive metro map for enhanced user navigation.
 
-This is a simple Java program that will take information (name) of the source station and the destination station, of Delhi Metro, from the user and display the fare and shortest metro route to reach the destination. It will also be having a metro map for commuter’s better navigation.
+---
 
-The idea is implemented using Graph and Heap data structures.
-The graph has nodes and edges. Nodes represent a metro station that will be containing certain information regarding that station like its name, its metro corridor, and the lines which it connects. Edges (the connection between two nodes) represent the distance between the two stations and the cost of each edge will be equal to the distance between the two of its connecting stations(nodes). 
+## 🚀 Features
 
-By using different algorithms like Dijkstra, breadth-first search, depth-first search, etc, the shortest path between the source station and the destination station is determined, and accordingly, the fare is being calculated on the basis of the total distance between the two stations. Finally, the metro route between the two stations and the total fare is displayed.
+- Simulates the Delhi Metro network using a weighted graph with 100+ nodes and edges.
+- Computes shortest path and fare using **Dijkstra’s Algorithm** and **Breadth-First Search (BFS)**.
+- Each station node stores relevant data like **station name**, **corridor**, and **inter-line connectivity**.
+- Includes an interactive metro map for better route planning and visualization.
 
-Main.java cointains all the major code and Heap.java contains heap implementation.
+---
 
+## 🛠️ Tech Stack
 
-##  REQUIREMENTS
+- **Language:** Java  
+- **Algorithms:** Dijkstra, BFS, DFS  
+- **Data Structures:** Graphs, Heaps, OOP Concepts  
 
-> The project can run on any online or offline Integrated Development Environment (IDE) like Eclipse, Netbeans, ideone.com, etc.
-> You should have at least elementary knowledge of Java Programming language to work on the project.
-> Knowledge of data structures like Graph and Heap and Algorithms like Dijkstra, BFS, DFS, etc is appreciated, however, it is not essential.
-> And lastly, some understanding of the Collection framework makes it a cakewalk journey. (If you don't know about the Collection framework it is not a                   problem, you can proceed without it and while working if you feel the need to know you can refer to https://www.geeksforgeeks.org/collections-in-java-2/ ).
+---
 
+## 📁 File Structure
 
-## That was all... You are all set to work on the project!!!!  
+- `Main.java` – Contains core logic, including graph setup and route computation.  
+- `Heap.java` – Custom implementation of the Heap data structure used by Dijkstra.  
+
+---
+
+## 🧠 Requirements
+
+- Any IDE (Eclipse, IntelliJ, NetBeans, or online editors like ideone.com).  
+- Basic knowledge of **Java programming** is recommended.  
+- Familiarity with **graphs**, **heaps**, and **graph traversal algorithms** (Dijkstra, BFS, DFS) is helpful.  
+- Understanding of the **Java Collections Framework** is a plus.  
+  → [Quick Reference](https://www.geeksforgeeks.org/collections-in-java-2/)
+
+---
+
+## ✅ Getting Started
+
+1. Clone this repository or download the code files.  
+2. Open `Main.java` in your Java IDE.  
+3. Run the program and input the source and destination station names when prompted.  
+4. View the shortest route and fare.  
+5. (Optional) Explore the integrated map for visual navigation.
+
+---
+
+## 📌 Note
+
+> This is **not an Android application**. It is a **Java-based CLI project** designed to demonstrate core algorithmic and data structure skills.
+
 	
